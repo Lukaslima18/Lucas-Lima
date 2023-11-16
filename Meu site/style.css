@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+:root{
+    --subcor: #3112E5
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background-color: #160f0f;
+    color: aliceblue;
+    
+     }
+header{
+    padding: 32px 50px 12px;
+    border-bottom : 3px solid var(--subcor);
+    background-color:  rgba( 0, 0, 0, 0.1);
+      }
+header div  {
+    color:aliceblue;
+    text-align: center;
+    }
+header div a{
+
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: 'Reboto', sans-serif;
+}
+header div a:hover {
+    color:blue;
+    transition: color 600ms
+}
+ #box{
+    text-align: center;
+    padding: 32px;
+ }
+#box img{
+    border-radius: 50%;
+}
+#box h1{
+    font-size: 46px;
+    line-height: 58px;
+    font-weight: bold;
+    color:aqua
+    
+}
+
+#box h2{
+    font-size: 20px;
+    color: var(--subcor);
+}

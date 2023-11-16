@@ -1,39 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            border: 0;
-        }
-        body {
-            background-color: #160f0f;
-            color: aliceblue;
-            
-             }
-        header{
-            padding: 32px 50px 12px;
-            border-bottom : 3px solid green;
-            background-color:  rgba( 0, 0, 0, 0.1);
-              }
-        header div  {
-            color:aliceblue;
-            text-align: center;
-            }
-        header div a{
-            color: white;
-            font-size: 20px;
-            line-height: 30px;
-            margin: 0 16px;
-            text-decoration: none;
-            font-family: 'Reboto', sans-serif;
-        }
-    </style>
-    
+<html lang="en"> 
+ <link rel="stylesheet" href="style.css">     
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Lucas Site</title>
+     <title>Lucas Lima currículo</title>
 </head>
 <body>
     
@@ -42,10 +13,19 @@
           <a href="https://www.github.com/Lukaslima18/Lucas-Massan-Code.git"> github</a>
           <a href="https://www.instagram.com/luskalima21"> instagram</a>
         </div>
-    
+   
     </header>
-      <h1><strong> Hello World</strong>  </h1>
-       <button> Pressione para começar o mundo</button>
-    
+    <div id="box">
+        <img src="data:image/jpeg;base64,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   " alt=" Imagem não carregada  ">
+        <div class="Pressione para entrar na vibe meu confrade "
+        <a href="https://www.youtube.com/watch?v=1AY6gx5uZgE&pp=ygURY2FtaWxsZSBsZSBmZXN0aW4%3D"></a>
+        <h1><strong> LUCAS LIMA DE ALMEIDA</strong>  </h1>
+        <h2>Estudante de Análse e Desenvolvimento de Sistemas</h2> 
+    </div>
+<div id="box2"></div>
+
+
+  
+   </div>
 </body>
 </html>
