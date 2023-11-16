@@ -53,3 +53,15 @@ header div a:hover {
     font-size: 20px;
     color: var(--subcor);
 }
+#box button {
+    background-color: var(--subcor);
+    border: none;
+    color: rgb(3, 3, 3);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
